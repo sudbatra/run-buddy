@@ -8,18 +8,27 @@
         <link rel="stylesheet" href="./assets/css/style.css" />   
     </head>
     <body>
-            <!--navigation-->
-        <header>
-            <h1>RUN BUDDY </h1>
-                What We Do What You Do Your Trainers Reach Out
-            <nav>
+            <!--navigation, buttons that are on the top and will be controlling different buttons on the top like what we do ...-->
+        <header> <!-- header is what appears at the very top section of the webpage -->
+            <h1>RUN BUDDY </h1> <!-- this is the h1 that is appearing in the header. this is usually the name of the website -->
+                
+            <nav> <!-- nav /navigation controls the navigation of the page. 
+                        in this activity we want to navigate to 4 different sections listed below
+                        you can also link other files / pages in the nav section. 
+                        -->
                 <!--Unordered list element -->
-                <ul>
+                <ul> <!-- unordered list is ul, in ul you dont get bullet poitns, numbers etc, you only get it as a list -->
                     <!--List Item element-->
-                    <li>
-                        <!-- Anchor element-->
+                    <li> <!-- li is listed elements, you get bullet points, number etc 
+                              the reason we dont see any #s over here is because we are not listing anything we are only anchoring elements  -->
+                       
+                        <!-- Anchor element <a> basically lists anchors or connects one element of the webpage to another 
+                        below we are builing the foundation of anchoring what we do , you do tages with what we do , you do sections  -->
+
                         <a bref="#what-we-do">What We Do</a>
+
                     </li>
+
                     <li>
                         <a bref="#what-you-do">What You Do</a>
                     </li>
@@ -32,31 +41,35 @@
                 </ul>
             </nav>
         </header>
+           
+        <!-- header is done here now we are going to be working on rest of the body of the webpage -->
 
                 <!--user inputs for the signup form-->
-            <section>
-                <div>
+            <section class="hero"> 
+                <div class="hero-form">
                     <h3>Get Started Today</h3>
                     <p>Fill out this form and one of our trainers will schedule a consult </p>
                     <!-- Add form element-->
                     <form>
                         <!-- First Name -->
                         <label for="name">Enter Full name;</label>
-                        <input type="text" placeholder="Your Name" name="name" id="name" />
+                        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                         <!-- Email -->
                         <label for="email">Enter Email Address</label>
-                        <input type="text" placeholder="Email Address" name="email " id="email " />
+                        <input type="email" placeholder="Email Address" name="email " id="email" class="form-input" />
                         <!-- Telephone number-->
                         <label for="Phone">Enter telephone number</label>
-                        <input type="text" placeholder="Phone Number" name="Phone" id="Phone" />
+                        <input type="tel" placeholder="Phone Number" name="Phone" id="Phone" class="form-input" />
                         <p>
                             Have you worked out with a trainer before?
+                            <!-- Radio is for choosing yes/no you seprate it with 2 different id's with a yes or no for it to work -->
                             <input type="radio" name="trainer-confirm" id="traienr-yes" />
                             <label for="trainer-yes">Yes</label>
                             <input type="radio" name="trainer-confirm" id="trainer-no" />
                             <label for="trainer-no">No</label>
                         </p>
                         <p>
+                           <!-- checbox is single box that you check off eg age confiramtion -->
                             <label for="checkbox" >
                             I acknowledhe that I am at least 18 years of age.
                             </label>
@@ -68,20 +81,51 @@
                     </form>
                 </div>
             </section>
-        <!--end hero -->
+        <!-- user input section ends here --> 
 
-        <!--hero/jumbotron-->
-        <section>    
-        </section>
-
+       
+        
         <!-- "what we do" section -->
         <section>
+            <section id="what-we-do" class="intro">
             <h2> What We Do </h2>
+            <p> 
+                butcher selfies chambray shabby chit gentrify readymade yr echo park XOXO, 
+                This is all jibbrish and does not amke sense. it includes a whole bunch of random text which eventally will be repalaced by somehing that is more meaningful 
+                keep writing till we have some lines to be displayed on the webpage itself. 
+            </p>
+           </section>
         </section>
-
+        
         <!-- "what you do" section-->
         <section>
+            <section id="what-you-do">
             <h2> What You Do</h2>
+            </section>
+                    <!--Step 1-->
+            <div>
+                <img src="./assets/images/step-1.svg" alt="" />
+                <h3> Step1: Fill Out the Form Above. </h3>
+                <p> You're already here, so why not?</p>
+            </div>
+                     <!--Step 2-->
+            <div>
+                <img src="./assets/images/step-2.svg" alt="" />
+                <h3>Step2: Consult With One of Our Trainers.</h3>
+                <p>Are you here to build muscle, lost weight, or just feel good?</p>        
+            </div>
+                     <!--Step 3-->
+            <div>
+                <img src="./assets/images/step-3.svg" alt="" />
+                <h3>Step3: Get Running.</h3>
+                <p>Hit the ground running (literallly( once your trainer lays out your plan.</p>
+            </div>
+                     <!--Step 4-->
+            <div>
+                <img src="./assets/images/step-4.svg" alt="" />
+                <h3>Step4: See Results.</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused </p>
+            </div>
         </section>    
 
         <!-- "meet the traienrs" section -->
@@ -94,7 +138,7 @@
             <h2>Reach Out</h2>
         </section>
 
-        <!--footer-->
+        <!--footer is what appears at the very bottom of the page -->
         <footer>
             <h2>❤️ Made with love by Run Buddy.</h2>
             <div>

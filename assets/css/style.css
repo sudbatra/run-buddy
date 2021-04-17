@@ -1,13 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
+/* anything that are in * { are cntrolling shit thats on the main page */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 body {
     /* more on this crazy alphanumerical value in a minute! */ 
@@ -28,6 +26,7 @@ header h1 {
     margin: 0;
     display: inline;
 }
+
 
 header a {
     text-decoration: none;
@@ -71,3 +70,85 @@ footer div {
 footer a{
     color: #024e76
 }
+
+section{
+    padding:60px;  
+}
+
+/* this is for the backgtound image */
+
+.hero {
+    background-image: url("../images/hero-background image.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    
+}
+/* hero background iamge style ends here */
+
+ /*this is the form color css */ 
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: 3px solid #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+    
+}
+
+.hero-form h3{
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15 px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* this is icon intro styling */
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0px auto;
+  }
