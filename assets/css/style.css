@@ -82,11 +82,12 @@ section{
     height: 600px;
     background-size: cover;
     background-position: center;
-    
+    position: relative;
 }
 /* hero background iamge style ends here */
 
  /*this is the form color css */ 
+
 .hero-form {
     background-color: #fce138;
     padding: 20px;
@@ -118,7 +119,7 @@ section{
 }
 
 .hero-form label {
-    margin: 0px;
+    margin: 0 5px;
 }
 
 .hero-form button {
@@ -135,13 +136,12 @@ section{
     text-align: center;
 }
 
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
 /* now begins the next section what you do */
@@ -150,22 +150,6 @@ section{
     text-align: center;
     background: #fce138;
 }
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-  }
-  
-.primary-border {
-    border-color: #fce138;
-  }
-  
-.secondary-border {
-    border-color: #39a6b2;
-  }
 
 .steps div {
     margin-bottom: 80px;
@@ -186,4 +170,21 @@ section{
 
 .steps span {
     font-size: 38px;
+}
+  
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
 }
